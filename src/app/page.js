@@ -5,10 +5,9 @@ import { Container, Pagination } from 'react-bootstrap'
 import './style.css'
 
 export default function Home() {
-  const screenWidth = window.screen.width
   const [num, setNum] = useState([])
   const [result, setResult] = useState([])
-  const numLength = screenWidth < 768 ? 10 ** 4 : 10 ** 10
+  const numLength = 10 ** 5
 
   useEffect(() => {
     setNum(() => getRandomNumber(numLength))
