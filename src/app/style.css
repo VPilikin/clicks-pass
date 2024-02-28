@@ -1,0 +1,29 @@
+.big a {
+  font-size: 4em;
+}
+
+.green a {
+  background-color: green;
+  color: black;
+}
+
+.red a {
+  background-color: red;
+  color: black;
+}
+
+.input-for-mobile {
+  background-color: aliceblue;
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: 0;
+  outline: none;
+  caret-color: transparent;
+  margin-bottom: 20px;
+  transition: ease 2s;
+}
+
+.input-for-mobile:active {
+  background-color: red;
+}
